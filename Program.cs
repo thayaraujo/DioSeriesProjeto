@@ -51,7 +51,7 @@ namespace DIO.Series
 
             if (lista.Count == 0)
             {
-                Console.WriteLine("Nenhuma série cadastrada.");
+                Console.WriteLine("Nenhuma série está cadastrada.");
                 return;
             }
 
