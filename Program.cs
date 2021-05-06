@@ -128,7 +128,7 @@ namespace DIO.Series
         {
             Console.Write("Digite o id da série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
-
+            
             repositorio.Exclui(indiceSerie);
         }
 
@@ -145,7 +145,7 @@ namespace DIO.Series
         private static string ObterOpcaoUsuario()
         {
             Console.WriteLine();
-            Console.WriteLine("DIO Séries a seus dispor!");
+            Console.WriteLine("DIO Séries");
             Console.WriteLine("Informe a opção desejada");
 
             Console.WriteLine("1- Listar séries");
